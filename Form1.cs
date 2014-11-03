@@ -245,7 +245,7 @@ namespace GovForms
             listView1.BeginUpdate();
 
             // Setting up the conncetion to the MySql Database
-            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=tesa411;Connect Timeout=99999";
+            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=#######;Connect Timeout=99999";
             String cmdText;
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             MySqlDataReader reader = null;
