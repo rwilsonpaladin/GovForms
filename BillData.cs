@@ -90,7 +90,7 @@ namespace GovForms
 
             listView2.BeginUpdate();
 
-            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=tesa411;Connect Timeout=99999";
+            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=#######;Connect Timeout=99999";
             String cmdText;
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             MySqlDataReader reader = null;
@@ -152,7 +152,7 @@ namespace GovForms
         private void populateDetail()
         {
 
-            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=tesa411;Connect Timeout=99999";
+            String MyConnectionString = "Server=localhost;Database=federal;Uid=root;password=#######;Connect Timeout=99999";
             String cmdText = null;
             String cmdBuild = null;
             int idCount = 0;
